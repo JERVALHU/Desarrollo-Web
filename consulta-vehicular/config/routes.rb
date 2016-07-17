@@ -1,4 +1,22 @@
 Rails.application.routes.draw do
+  get 'query_card/index'
+
+  get 'query_card/informacion-basica'
+
+  get 'query_card/busqueda-avanzada'
+
+  get 'query_card/informacion-avanzada'
+
+  get 'query_card/registro'
+
+  get 'query_card/olvidaste-clave'
+
+  get 'query_card/nosotros'
+
+  get 'query_card/contacto'
+
+  get 'query_card/nuestro-blog'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
