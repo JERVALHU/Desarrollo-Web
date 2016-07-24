@@ -1,27 +1,27 @@
 Rails.application.routes.draw do
-  get 'query_card/index'
+  get 'proyecto/busquedaavanza'
 
-  get 'query_card/informacion-basica'
+  get 'proyecto/contacto'
 
-  get 'query_card/busqueda-avanzada'
+  get 'proyecto/index'
 
-  get 'query_card/informacion-avanzada'
+  get 'proyecto/informacionavanzada'
 
-  get 'query_card/registro'
+  get 'proyecto/informacionbasica'
 
-  get 'query_card/olvidaste-clave'
+  get 'proyecto/nosotros'
 
-  get 'query_card/nosotros'
+  get 'proyecto/nuestroblog'
 
-  get 'query_card/contacto'
+  get 'proyecto/olvidasteclave'
 
-  get 'query_card/nuestro-blog'
+  get 'proyecto/registro'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'proyecto#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
